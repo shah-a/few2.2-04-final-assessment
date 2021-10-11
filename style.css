@@ -1,0 +1,12 @@
+.swatch {
+  /* Remove this rule when you set your colors! */
+  background-color: red;
+  margin: 1px;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+}
