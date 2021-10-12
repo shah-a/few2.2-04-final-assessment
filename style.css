@@ -79,10 +79,15 @@ nav a:hover {
   flex-direction: column;
   text-align: center;
   border: 1px solid var(--light);
+  width: 100%;
 }
 
 .card img {
   max-width: 100%;
+}
+
+.card p {
+  padding: 0.5rem;
 }
 
 .swatches {
@@ -91,411 +96,435 @@ nav a:hover {
   grid-template-columns: repeat(5, 1fr);
   padding: 1rem;
   background-color: #ffffff22;
+  border-radius: 0.25rem;
 }
 
 .swatch {
-  margin: 1px;
   height: 120px;
+  border-radius: 0.25rem;
 }
 
 .color-0 {
-  background-color: #99a230;
+  background-color: #e571ed;
 }
 
 .color-1 {
-  background-color: #3df8b7;
+  background-color: #fe9be1;
 }
 
 .color-2 {
-  background-color: #c04635;
+  background-color: #84da33;
 }
 
 .color-3 {
-  background-color: #e28d89;
+  background-color: #507c1f;
 }
 
 .color-4 {
-  background-color: #392006;
+  background-color: #9e46d8;
 }
 
 .color-5 {
-  background-color: #ebc9aa;
+  background-color: #2e0270;
 }
 
 .color-6 {
-  background-color: #ab4a66;
+  background-color: #0ef6a4;
 }
 
 .color-7 {
-  background-color: #1fb435;
+  background-color: #ce5bc0;
 }
 
 .color-8 {
-  background-color: #578f8b;
+  background-color: #f6d682;
 }
 
 .color-9 {
-  background-color: #aa5391;
+  background-color: #d0ea46;
 }
 
 .color-10 {
-  background-color: #5a5656;
+  background-color: #56a290;
 }
 
 .color-11 {
-  background-color: #71ef3f;
+  background-color: #a27226;
 }
 
 .color-12 {
-  background-color: #7da204;
+  background-color: #d72057;
 }
 
 .color-13 {
-  background-color: #739d36;
+  background-color: #e86867;
 }
 
 .color-14 {
-  background-color: #2168e6;
+  background-color: #989569;
 }
 
 .color-15 {
-  background-color: #81c016;
+  background-color: #7a46e1;
 }
 
 .color-16 {
-  background-color: #658f0c;
+  background-color: #96e562;
 }
 
 .color-17 {
-  background-color: #c3d99e;
+  background-color: #5c8434;
 }
 
 .color-18 {
-  background-color: #c83a1d;
+  background-color: #35f7d6;
 }
 
 .color-19 {
-  background-color: #4ca65a;
+  background-color: #7e6ad2;
 }
 
 .color-20 {
-  background-color: #24dabe;
+  background-color: #eb5737;
 }
 
 .color-21 {
-  background-color: #dd94b1;
+  background-color: #aca00e;
 }
 
 .color-22 {
-  background-color: #26bbce;
+  background-color: #bbc50a;
 }
 
 .color-23 {
-  background-color: #dac448;
+  background-color: #6c65ae;
 }
 
 .color-24 {
-  background-color: #28c38b;
+  background-color: #497e76;
 }
 
 .color-25 {
-  background-color: #92f0c4;
+  background-color: #87b89f;
 }
 
 .color-26 {
-  background-color: #dc49bd;
+  background-color: #150315;
 }
 
 .color-27 {
-  background-color: #a44cce;
+  background-color: #e918d0;
 }
 
 .color-28 {
-  background-color: #073e51;
+  background-color: #31b074;
 }
 
 .color-29 {
-  background-color: #38e895;
+  background-color: #806738;
 }
 
 .color-30 {
-  background-color: #c874f0;
+  background-color: #3b863b;
 }
 
 .color-31 {
-  background-color: #4148ba;
+  background-color: #aa9fd4;
 }
 
 .color-32 {
-  background-color: #da21b8;
+  background-color: #47ffa6;
 }
 
 .color-33 {
-  background-color: #3f6511;
+  background-color: #05ba56;
 }
 
 .color-34 {
-  background-color: #3c4450;
+  background-color: #e1ca82;
 }
 
 .color-35 {
-  background-color: #02bbf0;
+  background-color: #8fa513;
 }
 
 .color-36 {
-  background-color: #2e22f0;
+  background-color: #4f3c03;
 }
 
 .color-37 {
-  background-color: #6947e2;
+  background-color: #2626ac;
 }
 
 .color-38 {
-  background-color: #5e6ebd;
+  background-color: #d9b769;
 }
 
 .color-39 {
-  background-color: #228c99;
+  background-color: #f8da99;
 }
 
 .color-40 {
-  background-color: #3c8316;
+  background-color: #08a2b2;
 }
 
 .color-41 {
-  background-color: #f25a85;
+  background-color: #1e9b52;
 }
 
 .color-42 {
-  background-color: #f82acb;
+  background-color: #989d94;
 }
 
 .color-43 {
-  background-color: #45178a;
+  background-color: #a9fc28;
 }
 
 .color-44 {
-  background-color: #6401c1;
+  background-color: #cc1a40;
 }
 
 .color-45 {
-  background-color: #12403f;
+  background-color: #522b24;
 }
 
 .color-46 {
-  background-color: #45ea69;
+  background-color: #b7dd8a;
 }
 
 .color-47 {
-  background-color: #0ac9b3;
+  background-color: #8fe0d6;
 }
 
 .color-48 {
-  background-color: #708b32;
+  background-color: #dabc24;
 }
 
 .color-49 {
-  background-color: #dfe5be;
+  background-color: #6bc3f0;
 }
 
 .color-50 {
-  background-color: #cde021;
+  background-color: #c304c5;
 }
 
 .color-51 {
-  background-color: #1287ac;
+  background-color: #ab8e25;
 }
 
 .color-52 {
-  background-color: #c0b6c0;
+  background-color: #c848c5;
 }
 
 .color-53 {
-  background-color: #6a905d;
+  background-color: #29ad90;
 }
 
 .color-54 {
-  background-color: #cb143a;
+  background-color: #9ff010;
 }
 
 .color-55 {
-  background-color: #5c8ac8;
+  background-color: #947bcf;
 }
 
 .color-56 {
-  background-color: #bd35e4;
+  background-color: #c3f1dc;
 }
 
 .color-57 {
-  background-color: #c629b6;
+  background-color: #21b344;
 }
 
 .color-58 {
-  background-color: #1aaba3;
+  background-color: #70e41c;
 }
 
 .color-59 {
-  background-color: #d1f52f;
+  background-color: #6577f3;
 }
 
 .color-60 {
-  background-color: #c030f8;
+  background-color: #6081e3;
 }
 
 .color-61 {
-  background-color: #a04983;
+  background-color: #e0a07d;
 }
 
 .color-62 {
-  background-color: #4a5d89;
+  background-color: #8f5023;
 }
 
 .color-63 {
-  background-color: #f92894;
+  background-color: #9a7722;
 }
 
 .color-64 {
-  background-color: #ce52aa;
+  background-color: #4aa02f;
 }
 
 .color-65 {
-  background-color: #71a6e6;
+  background-color: #6182c0;
 }
 
 .color-66 {
-  background-color: #21a511;
+  background-color: #4cf1b4;
 }
 
 .color-67 {
-  background-color: #62e554;
+  background-color: #80a977;
 }
 
 .color-68 {
-  background-color: #67dd02;
+  background-color: #418bba;
 }
 
 .color-69 {
-  background-color: #0777d0;
+  background-color: #e4318c;
 }
 
 .color-70 {
-  background-color: #edaf73;
+  background-color: #6fb4a5;
 }
 
 .color-71 {
-  background-color: #28a9e2;
+  background-color: #1341a5;
 }
 
 .color-72 {
-  background-color: #211dbe;
+  background-color: #4906e5;
 }
 
 .color-73 {
-  background-color: #148be0;
+  background-color: #86029f;
 }
 
 .color-74 {
-  background-color: #cf9250;
+  background-color: #0e6211;
 }
 
 .color-75 {
-  background-color: #50ec5f;
+  background-color: #20f144;
 }
 
 .color-76 {
-  background-color: #54dcca;
+  background-color: #3c437f;
 }
 
 .color-77 {
-  background-color: #6b3bd0;
+  background-color: #3ce9ca;
 }
 
 .color-78 {
-  background-color: #76ff9a;
+  background-color: #14fa28;
 }
 
 .color-79 {
-  background-color: #3e2c64;
+  background-color: #60a4b1;
 }
 
 .color-80 {
-  background-color: #e3ec44;
+  background-color: #1b18af;
 }
 
 .color-81 {
-  background-color: #eddc67;
+  background-color: #8ea488;
 }
 
 .color-82 {
-  background-color: #52a582;
+  background-color: #6ba50d;
 }
 
 .color-83 {
-  background-color: #ca4e1b;
+  background-color: #de21ba;
 }
 
 .color-84 {
-  background-color: #54f5e1;
+  background-color: #480b0e;
 }
 
 .color-85 {
-  background-color: #8df9f8;
+  background-color: #da287e;
 }
 
 .color-86 {
-  background-color: #b27f97;
+  background-color: #c4114a;
 }
 
 .color-87 {
-  background-color: #2f86ec;
+  background-color: #4c5375;
 }
 
 .color-88 {
-  background-color: #9ef2e4;
+  background-color: #6eb969;
 }
 
 .color-89 {
-  background-color: #19c922;
+  background-color: #bba774;
 }
 
 .color-90 {
-  background-color: #63926e;
+  background-color: #6a222e;
 }
 
 .color-91 {
-  background-color: #083b68;
+  background-color: #559d28;
 }
 
 .color-92 {
-  background-color: #f1d7de;
+  background-color: #87d1d4;
 }
 
 .color-93 {
-  background-color: #ea3664;
+  background-color: #5a1bcc;
 }
 
 .color-94 {
-  background-color: #b2d8cd;
+  background-color: #ee70ce;
 }
 
 .color-95 {
-  background-color: #a86545;
+  background-color: #d0fecc;
 }
 
 .color-96 {
-  background-color: #93da91;
+  background-color: #522c20;
 }
 
 .color-97 {
-  background-color: #538360;
+  background-color: #8562f7;
 }
 
 .color-98 {
-  background-color: #029632;
+  background-color: #b7556a;
 }
 
 .color-99 {
-  background-color: #a166b3;
+  background-color: #a02a4d;
+}
+
+#items {
+  padding-left: 1rem;
+}
+
+#items input {
+  padding: 0.5rem 1rem;
+}
+
+#items button {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+}
+
+#items li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#total {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

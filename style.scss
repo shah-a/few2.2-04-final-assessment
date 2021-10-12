@@ -81,10 +81,15 @@ nav a:hover {
   flex-direction: column;
   text-align: center;
   border: 1px solid var(--light);
+  width: 100%
 }
 
 .card img {
   max-width: 100%;
+}
+
+.card p {
+  padding: 0.5rem;
 }
 
 .swatches {
@@ -93,15 +98,39 @@ nav a:hover {
   grid-template-columns: repeat(5, 1fr);
   padding: 1rem;
   background-color: #ffffff22;
+  border-radius: 0.25rem;
 }
 
 .swatch {
-  margin: 1px;
   height: 120px;
+  border-radius: 0.25rem;
 }
 
 @for $n from 0 to 100 {
   .color-#{$n} {
     background-color: rgb(random(255), random(255), random(255));
   }
+}
+
+#items {
+  padding-left: 1rem;
+}
+
+#items input {
+  padding: 0.5rem 1rem;
+}
+
+#items button {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+}
+
+#items li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#total {
+  font-size: 2rem;
 }
