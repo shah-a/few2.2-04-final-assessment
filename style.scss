@@ -113,6 +113,7 @@ nav a:hover {
 }
 
 #items {
+  font-weight: bold;
   padding-left: 1rem;
 }
 
@@ -133,4 +134,24 @@ nav a:hover {
 
 #total {
   font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form > input,
+form > textarea {
+  margin-bottom: 1rem;
+}
+
+form button {
+  font-family: inherit;
+  padding: 0.5rem 1rem;
 }
