@@ -33,6 +33,36 @@ body {
   color: var(--light);
 }
 
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about,
+#popular,
+#swatches,
+#cart,
+#contact {
+  min-height: 50vh;
+}
+
+#about,
+#cart,
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  justify-content: center;
+}
+
+#cart,
+#contact {
+  justify-content: flex-start;
+}
+
 a {
   text-decoration: none;
   color: var(--blue);
@@ -40,11 +70,6 @@ a {
 
 a:hover {
   color: var(--red);
-}
-
-h1, h2, h3,
-h4, h5, h6 {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav {
@@ -119,6 +144,7 @@ nav a:hover {
 
 #items input {
   padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
 
 #items button {
@@ -139,7 +165,6 @@ nav a:hover {
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 form div {
@@ -149,6 +174,8 @@ form div {
 form > input,
 form > textarea {
   margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
 
 form button {
